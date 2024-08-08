@@ -10,7 +10,7 @@ import userRouter from "./routes/userRouter.js";
 import jobRouter from "./routes/jobRouter.js";
 import applicationRouter from "./routes/applicationRouter.js";
 
-import { dbConnection } from "./database/dbConnection.js/";
+import {dbConnection}  from "./database/dbConnection.js";
 import { errorMiddleWare } from "./middlewares/error.js";
 
 // made connection from env file
